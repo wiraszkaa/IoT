@@ -8,6 +8,7 @@
         {
             "name": "PlatformIO",
             "includePath": [
+                "D:/Projekty/Arduino/IoT/Lab3/.pio/libdeps/uno/LiquidCrystal_I2C",
                 "C:/Users/Wirac/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Wirac/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Wirac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
