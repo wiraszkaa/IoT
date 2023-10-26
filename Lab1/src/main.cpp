@@ -14,9 +14,16 @@ pinMode(LED_BUILTIN, OUTPUT);
 
 // the loop function runs over and over again forever
 void loop() {
-  int longSig = 1000;
+  int longSig = 3000;
   int shortSig = 100;
  
   blink(LED_BUILTIN, longSig);
+  blink(LED_BUILTIN, longSig);
+  blink(LED_BUILTIN, longSig);
   blink(LED_BUILTIN, shortSig);
+  blink(LED_BUILTIN, shortSig);
+  blink(LED_BUILTIN, shortSig);
+  blink(LED_BUILTIN, longSig);
+  blink(LED_BUILTIN, longSig);
+  blink(LED_BUILTIN, longSig);
 }

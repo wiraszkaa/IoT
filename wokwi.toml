@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = './Lab3/.pio/build/uno/firmware.hex'
+elf = './Lab3/.pio/build/uno/firmware.elf'
