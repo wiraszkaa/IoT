@@ -1,0 +1,29 @@
+{
+    "name": "LedController",
+    "keywords": "led, colors",
+    "description": "Arduino Library for controlling RGB LED",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://example.com/LedController.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Jakub Wiraszka",
+            "email": "266525@student.pwr.edu.pl",
+            "url": "https://jakubwiraszka.com",
+            "maintainer": true
+        },
+        {
+            "name": "Dawid Rymarczyk",
+            "email": "266521@student.pwr.edu.pl",
+            "url": "http://dawidrymarczyk.com",
+            "maintainer": true
+        }
+    ],
+    "version": "1.0.0",
+    "homepage": "https://example.com/LedController",
+    "frameworks": "arduino",
+    "platforms": "*"
+}

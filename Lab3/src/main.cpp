@@ -30,6 +30,8 @@ void initButtons()
 void setup1()
 {
   digitalWrite(LED_RED, HIGH);
+  lcd.init();
+  lcd.clear();
 }
 
 void setup2()
@@ -41,7 +43,7 @@ void setup3()
 {
   lcd.init();
   lcd.backlight();
-
+  
   lcd.print(0);
   lcd.setCursor(0, 0);
 }
@@ -248,14 +250,14 @@ void setup()
 {
   initRGB();
   initButtons();
-  setup1();
+  // setup1();
   // setup2();
-  // setup3();
+  setup3();
 }
 
 void loop()
 {
-  loop1();
+  // loop1();
   // loop2();
-  // loop3();
+  loop3();
 }
